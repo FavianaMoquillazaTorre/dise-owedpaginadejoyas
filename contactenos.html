@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactenos</title>
+    <link rel="stylesheet" href="CSS/contactenos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+</head>
+<style>
+    body{
+        background: #F2F2F2;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+    }
+</style>
+<body>
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="IMG/IMGcontactenos/banner.jpg" class="d-block w-100">
+      </div>
+      <div class="carousel-item">
+        <img src="IMG/IMGcontactenos/banner2.jpg" class="d-block w-100">
+      </div>
+      <div class="carousel-item">
+        <img src="IMG/IMGcontactenos/banner3.jpg" class="d-block w-100">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <div class="barra">
+    <nav>
+      <ul>
+          <li class="principal"><a href="inicio.html">Inicio</a></li>
+          <li class="principal"><a href="">Productos</a>
+              <ul>
+                  <li><a href="anillos.html">Anillos</a></li>
+                  <li><a href="aretes.html">Aretes</a></li>
+                  <li><a href="collares.html">Collares</a></li>
+                  <li><a href="pulseras.html">Pulseras</a></li>
+              </ul>
+          </li>
+          </li>
+          <li class="principal"><a href="">Servicios</a>
+              <ul>
+                <li><a href="diseño.html">Diseño de Joyas</a></li>
+                  <li><a href="personalizados.html">Joyas Personalizadas</a></li>
+              </ul>
+          </li>
+          <li class="principal"><a href="contactenos.html">Contactenos</a></li>
+      </ul>
+    </nav><br>
+  </div>
+  <div class="contactenos p-5">
+    <div class="row">
+      <div class="col-md-6">
+        <img src="IMG/IMGcontactenos/contactenosjpg.webp" width="100%" height="100%">
+      </div>
+      <div class="col-md-6">
+        <div>
+          <center><h1 class="fs-1">
+            <style>
+              @import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap');
+            </style>
+              Consultas y Sugerencias</h1></center><br>
+          <p>
+            Déjanos tus consultas o sugerencias y nos pondremos en contacto contigo.
+          </p>
+        </div>
+        <section>
+          <form>
+            <style>
+              @import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300;500&display=swap');
+            </style>
+            <label for="nombre" class="fw-bolder">Nombres: </label>
+            <input class="form-control" type="text" placeholder="Ingresa tus nombres..."><br>
+            <label for="apellidos" class="fw-bolder">Apellidos: </label>
+            <input class="form-control" type="text" placeholder="Ingresa tus apellidos..."><br>
+            <label for="gmail" class="fw-bolder">Gmail*</label>
+            <input class="form-control" type="text" placeholder="Ingresa un correo electronico"><br>
+            <label for="celular" class="fw-bolder">Celular*</label>
+            <input class="form-control" type="text" placeholder="Numero de celular"><br>
+            <div class="mensaje">
+              <div class="mb-3">
+                <label for="mensaje" class="form-label fw-bolder">Mensaje</label>
+                <textarea class="form-control" id="mensaje" rows="3"></textarea>
+              </div>
+            </div>
+            <div class="check">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                  He leído y acepto los Terminos y Condiciones y las Políticas de Privacidad
+                </label>
+              </div>
+              <div class="form-check ">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                <label class="form-check-label" for="flexCheckChecked">
+                  Estoy interesado en recibir información sobre productos, promociones u otros servicios de la pagina TH.vJewelry.
+                </label>
+              </div>
+            </div><br>
+            <div class="d-grid gap-2 col-6 mx-auto">
+              <button class="fw-bolder">Enviar Mensaje</button>
+            </div>
+          </form>
+        </section>
+      </div>
+    </div>
+  </div><br><br><br><br>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</body>
+</html>

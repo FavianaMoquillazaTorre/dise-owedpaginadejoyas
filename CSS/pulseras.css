@@ -1,0 +1,101 @@
+ul{
+    list-style-type: none;
+}
+.inicio{
+    text-transform: uppercase;
+    padding: 5px;
+    color: #d8d4d2;
+    font-size:small;
+}
+.todo{
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+}
+.todo a{
+    text-decoration: none;
+    color: #8C5F4F;
+    font-weight:bold;
+}
+.todo a:hover{
+    color: rgb(70, 70, 70);
+}
+.banner{
+    background: #fff;
+}
+.banner h2{
+    text-transform: uppercase;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 2%;
+    font-size:300%;
+    font-family: 'Gantari', sans-serif;
+}
+.banner p{
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
+}
+.info{
+    padding: 20px;
+}
+.link a{
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(123, 120, 120);
+}
+.link a:hover{
+    color: #cecccc;
+    text-decoration: underline;
+}
+.gridcontainer{
+    background: #fff;
+    padding: 40px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-auto-rows: minmax(200px, auto);
+    gap: 25px;
+    grid-auto-flow: dense;
+}
+.griditem{
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    background-size:cover ;
+
+    background-position: center;
+
+    background-repeat: no-repeat;
+
+    border-radius: 2px;
+
+    transition: transform 0.3s ease-in-out;
+
+}
+.griditem:hover{
+    filter: opacity(0.9);
+    transform: scale(1.05);
+}
+.numcol{
+    grid-column: span 2;
+}
+
+.numfil{
+    grid-row: span 3;
+}
+.boton{
+    text-align: center;
+}
+button{
+    border: none;
+    background: #000;
+    color: #fff;
+    width: 40%;
+    height: 30px;
+}
+button:hover{
+    background: #D99F7E;
+}

@@ -1,0 +1,265 @@
+ul{
+    list-style-type: none;
+}
+.barra nav li a{
+    text-decoration: none;
+    color: white;
+    background-color: #BF3939;
+    padding: 10px 15px;
+    display: block;
+    border-radius: none;
+    border-radius: 10px;
+}
+.principal{
+    float: left;
+}
+.barra nav{
+    width: 440px;
+    height: 60px;
+    margin: auto;
+}
+.barra nav li a:hover{
+    background-color: #F2DCC2;
+}
+.barra nav li ul{
+    position: absolute;
+    min-width: 120px;
+    display: none;
+}
+.barra nav li:hover >ul{
+    display: block;
+}
+.primero{
+    width: 100%;
+    height: 100%;
+    padding: 37px;
+}
+.primero img{
+    width: 100%;
+    height: 100%;
+
+}
+button a{
+    text-decoration: none;
+    border: none;
+    color: white;
+}
+button{
+    padding: 10px;
+    border: none;
+    width: 15%;
+    color: white;
+    background-color: #D9B68B;
+}
+.formulario input{
+    border: none;
+    text-decoration: none;
+    width: 100%;
+    height: 50px;
+}
+.formulario{
+    padding: 20px;
+    color: #F2EBEC;
+}
+.boton2 input{
+    color: white;
+    background: black;
+}
+.redes img{
+    width: 100%;
+    height: 100%;
+}
+.hover{
+    width: 0%;
+    height: 100%;
+    background-color: #202020cb;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.hover h2{
+    color: #fff;
+    text-shadow: 1px 1px 1px black;
+    font-size: 2em;
+    text-transform: uppercase;
+}
+.box a img{
+    width: 100%;
+    height: 100%;
+}
+.box:hover .hover{
+    width: 95%;
+}
+.hover a{
+    text-decoration: none;
+}
+.info{
+    background: rgba(162, 160, 160, 0.789);
+}
+.espacio{
+    background: #000;
+    width: 100%;
+    height: 97px;
+}
+.titulo h1{
+    color: #400101;
+    font-family: 'Secular One', sans-serif;
+}
+.titulo h4{
+    color: #D9B596;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.inicio p{
+    color: #403C3A;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.inicio img:hover {
+    filter: opacity(.5);
+}
+.inicio1 img{
+    width: 100%;
+    height: 100%;
+    border: solid #F2f2f2;
+    float: left;
+    margin: 0px;
+    -webkit-transition: margin 0.5s ease-out;
+    -moz-transition: margin 0.5s ease-out;
+    -o-transition: margin 0.5s ease-out;
+}
+.inicio1 img:hover{
+    filter: opacity(.7);
+    margin-top: 7px;
+}
+.inicio2{
+    width: 100%;
+    height: 70%;
+    color: #222126;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.inicio2 img{
+    width: 100%;
+    height: 100%;
+}
+.inicio2 img:hover {
+    filter: opacity(.5);
+}
+.colecciones h2{
+    color: #403C3A;
+    font-family: 'Secular One', sans-serif;
+}
+.novedades{
+    background: #26211F;
+}
+.novedades img{
+    width: 100%;
+    height: 100%;
+}
+.formulario input{
+    background: #403C3A;
+    border: none;
+    text-decoration: none;
+}
+.formulario{
+    color: #fff;
+}
+.boton input{
+    background: #BF846F;
+    color: #D9D0C7;
+}
+.boton input:hover{
+    background: #56514e;
+    color: #D9D0C7;
+}
+.redes h5{
+    color: #403C3A;
+}
+.iconos{
+    cursor: pointer;
+    letter-spacing: 17px;
+    text-decoration: none;
+}
+.iconos{
+    text-decoration: none;
+    color: #403C3A;
+    font-size: 19px;
+    font-weight: 400;
+    text-transform: uppercase;
+    border-bottom: 1px;
+    transition: .5s ease;
+}
+
+.iconos svg:hover {
+    color: #f3ededad;
+    border-bottom: 1px;
+}
+.inicio{
+    background: #fff;
+}
+.inicio2{
+    background: #fff;
+}
+.colecciones img{
+    width: 100%;
+    height: 100%;
+}
+.colecciones{
+    background: #fff;
+    padding: 20px;
+}
+.coleccion{
+    width: 100%;
+    height: 100%;
+}
+.coleccion p{
+    width: 100%;
+    height: 100%;
+    margin-top: -15%;
+    text-align: center;
+    font-size: large;
+    color: #000;
+    text-transform: uppercase;
+    border: none;
+    font-family: 'Secular One', sans-serif;
+}
+.coleccion a{
+    padding: 10px;
+    text-decoration: none;
+    color: #000;
+    background: #F2F2F2;
+    position: relative;
+}
+.coleccion a:hover{
+    color: #444;
+    cursor: pointer;
+}
+.coleccion img:hover {
+    filter: blur(1px);
+}
+section{
+    padding: 5px;
+}
+.nosotros{
+    padding: 20px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background: #fff;
+}
+.nosotros h2{
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bolder;
+}
+.nosotros p{
+    padding-left: 15%;
+    padding-right: 15%;
+    text-align: center;
+    font-size: large;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.controles{
+    padding: 10px;
+}

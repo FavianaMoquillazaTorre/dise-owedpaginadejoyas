@@ -1,0 +1,62 @@
+ul{
+    list-style-type: none;
+}
+.barra nav li a{
+    text-decoration: none;
+    color: white;
+    background-color: #BF3939;
+    padding: 10px 15px;
+    display: block;
+    border-radius: 10px;
+}
+.principal{
+    float: left;
+}
+.barra nav{
+    width: 440px;
+    height: 60px;
+    margin: auto;
+}
+.barra nav li a:hover{
+    background-color: #F2DCC2;
+}
+.barra nav li ul{
+    position: absolute;
+    min-width: 120px;
+    display: none;
+}
+.barra nav li:hover >ul{
+    display: block;
+}
+.contactenos{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background: #F2F2F0;
+    font-family: 'Figtree', sans-serif;
+}
+.contactenos h1{
+    color: #260101;
+    font-family: 'Mouse Memoirs', sans-serif;
+}
+.contactenos label{
+    color: #000;
+    font-family: 'Figtree', sans-serif;
+}
+.contactenos input{
+    background: #F2F2F0;
+}
+.mensaje textarea{
+    background: #F2F2F0;
+}
+.contactenos button{
+    width: 100%;
+    height: 40px;
+    background: #D9A78B;
+    color: #000;
+    border: none;
+}
+.contactenos button:hover{
+    color: #fff;
+    background: #0D0000;
+}
